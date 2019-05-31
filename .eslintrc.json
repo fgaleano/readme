@@ -1,0 +1,15 @@
+{
+  "extends": ["react-app", "prettier"],
+  "rules": {
+    "import/no-useless-path-segments": "off",
+    "import/no-unassigned-import": "off",
+    "max-lines": "off",
+    "no-eq-null": "off",
+    "eqeqeq": "off",
+    "react/jsx-indent": "off",
+    "complexity": ["error", 12]
+  },
+  "globals": {
+    "page": "readonly"
+  }
+}

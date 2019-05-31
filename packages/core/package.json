@@ -1,0 +1,38 @@
+{
+  "name": "core-components",
+  "version": "0.0.1",
+  "description": "Core components",
+  "main": "index.js",
+  "module": "es/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "node ../../shared/build-package",
+    "lint": "eslint . --max-warnings=0"
+  },
+  "keywords": [],
+  "author": "UI Community",
+  "peerDependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "react": "^16.5.2",
+    "react-testing-library": "^5.2.0"
+  },
+  "jest": {
+    "testRegex": ".+\\.test\\.js$",
+    "testURL": "http://localhost"
+  },
+  "files": [
+    "es",
+    "src",
+    "lib",
+    "index.js",
+    "styles.css"
+  ],
+  "dependencies": {
+    "lodash.uniqueid": "^4.0.1",
+    "prop-types": "^15.6.2"
+  }
+}
